@@ -11,8 +11,8 @@ function go() {
 // NUM_PLAYERS assigned, users won't be able to join the game.
 var NUM_PLAYERS = 2;
 
-// The root of your game data.
-var GAME_LOCATION = 'https://SampleGame.firebaseIO-demo.com/';
+// The root of your game data.  https://SampleGame.firebaseIO-demo.com/
+var GAME_LOCATION = 'https://sweltering-inferno-8013.firebaseio.com/';
 
 // A location under GAME_LOCATION that will store the list of 
 // players who have joined the game (up to MAX_PLAYERS).
