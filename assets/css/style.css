@@ -1,0 +1,23 @@
+
+.container{
+
+padding: 100px
+
+
+
+}
+
+.header {
+	text-align: center;
+	padding: 15px;
+	color: black;
+	background-color: #ffa31a;
+	opacity: 0.9;
+	padding: 10px;
+	font-size: 10px;
+	border: none;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	border-radius: 5px;
+	margin: 5px;
+}
