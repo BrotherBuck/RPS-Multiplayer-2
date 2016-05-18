@@ -1,14 +1,12 @@
 <!DOCTYPE html>
-
 <html>
 <head>
 
-
-<meta charset="UTF-8">	
-	
+	<meta charset="UTF-8">	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<script src="https://cdn.firebase.com/js/client/2.4.1/firebase.js"></script>
+	<script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
 	<link rel="stylesheet" href="assets/css/style.css">
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
 
@@ -36,22 +34,22 @@
 
 <div class= "container">
 
-<form>
-	<label>Name</label>
-	<input type="text" name="valuename">
-	<div id="response">
-     <p></p>
-     
-     <button id="start">Start</button>
-  	</div>
-
-  	
-
-
-</form>
+		<div class="row">
+			<div class="col-sm-12 info">
+    			<div class="input-group userName">
+      				<span class="input-group-btn">
+        				<button class="btn btn-default signIn" type="button">Sign In</button>
+      				</span>
+      				<input type="text" class="form-control userId" placeholder="name...">
+    			</div>
+  			</div>
+		</div>
+</div>
 
 
 
+
+ <!--Start out with the login on and see if you can get the player information into Firebase for the first player-->
 
 <!--Make a multi-player rock paper scissors game using Firebase-->
 
