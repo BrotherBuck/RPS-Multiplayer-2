@@ -21,3 +21,9 @@ padding: 100px
 	border-radius: 5px;
 	margin: 5px;
 }
+
+.userName{
+	width:33%;
+	position:relative;
+	left:33.3%;
+	bottom: 15px;
